@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SnakeBattle</string>
+    <string name="ranking_list">Ranking</string>
+    <string name="today_best">Today`s best</string>
+    <string name="first" translatable="false">1st</string>
+    <string name="second" translatable="false">2nd</string>
+    <string name="third" translatable="false">3rd</string>
+    <string name="fourth" translatable="false">4th</string>
+    <string name="fifth" translatable="false">5th</string>
+</resources>

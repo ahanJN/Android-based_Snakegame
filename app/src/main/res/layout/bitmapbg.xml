@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picture1"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/btn_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="Background"/>
+    <ImageView
+        android:id="@+id/view"
+        android:layout_below="@+id/btn_title"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/bt_reg"></ImageView>
+
+    <GridView
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_below="@+id/view"
+        android:numColumns="3"
+        android:id="@+id/gridView"></GridView>
+</RelativeLayout>
